@@ -12,7 +12,7 @@ var card = {
     subType : "Troll Shaman", //sottotipo, le carte possono avere più tipilogie
 
     expansion : {       //espansione carta in base alle diverse edizioni
-        expansionID :"", 
+        expansionID :"9", 
         name : "",
         rarity : "",
         other: "",
