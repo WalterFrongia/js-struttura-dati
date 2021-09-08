@@ -1,13 +1,23 @@
 var card = {
-    name : "",//nome della carta
+    name : "Troll Ascetic",//nome della carta
     launchCost :{ //Creare un oggetto con dentro le caratteristiche che indicano il costo di lancio della carta
-        common : 2, 
-        white: 3,
-        ublue: 1,
-        black: 4, 
+        common :0, 
+        white: 1,
+        ublue: 0,
+        black: 0, 
         red: 0,
-        green:0,
+        green:2,
     },
+    cardType : "creature", //indica il tipo della carta 
+    subType : "Troll Shaman", //sottotipo, le carte possono avere più tipilogie
+
+    expansion : {       //espansione carta in base alle diverse edizioni
+        expansionID :"", 
+        name : "",
+        rarity : "",
+
+    },
+
     combinedManaCost : function(){ //funzione per calcolare i mana cost
         let sum = 0;
         for (let type in this.launchCost){ //this.launchCost serve per prendere ogni elemento dentro launchCost oggetto
