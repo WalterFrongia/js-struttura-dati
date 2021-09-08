@@ -67,6 +67,7 @@ var card = {
     constitution: 3,
     strength:2,
     borderHue:"goldenrod", //indicaa il colore della carta
+    cardImage : "https://gatherer.wizards.com/Handlers/Image.ashx?type=card&name=Troll+Ascetic",
 
 
     combinedManaCost : function(){ //funzione per calcolare i mana cost
