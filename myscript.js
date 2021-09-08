@@ -18,10 +18,44 @@ var card = {
         other: "",
     },
     flauvourText:{
-        cardText: "Hexproof (This creature can't be the target of spells or abilities your opponents control",
         quote: "Non è una coincidenza che i troll più antichi siano anche quelli più arrabbiati.", //quote (citazione)
         author:" Puddnhead ",
     },
+    abilities :[
+        {
+            launchCost :{ 
+                common :0, 
+                white: 1,
+                ublue: 0,
+                black: 0, 
+                red: 0,
+                green:2,
+            },
+            description: "Hexproof (This creature can't be the target of spells or abilities your opponents control",
+        },
+        {
+            launchCost :{ 
+                common :0, 
+                white: 1,
+                ublue: 0,
+                black: 0, 
+                red: 0,
+                green:2,
+            },
+            description: "Hexproof (This creature can't be the target of spells or abilities your opponents control",
+        },
+        {
+            launchCost :{ 
+                common :0, 
+                white: 1,
+                ublue: 0,
+                black: 0, 
+                red: 0,
+                green:2,
+            },
+            description: "Hexproof (This creature can't be the target of spells or abilities your opponents control",
+        },     
+    ],
     combinedManaCost : function(){ //funzione per calcolare i mana cost
         let sum = 0;
         for (let type in this.launchCost){ //this.launchCost serve per prendere ogni elemento dentro launchCost oggetto
