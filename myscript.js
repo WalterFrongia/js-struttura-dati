@@ -15,9 +15,13 @@ var card = {
         expansionID :"", 
         name : "",
         rarity : "",
-
+        other: "",
     },
-
+    flauvourText:{
+        cardText: "Hexproof (This creature can't be the target of spells or abilities your opponents control",
+        quote: "Non è una coincidenza che i troll più antichi siano anche quelli più arrabbiati.", //quote (citazione)
+        author:" Puddnhead ",
+    },
     combinedManaCost : function(){ //funzione per calcolare i mana cost
         let sum = 0;
         for (let type in this.launchCost){ //this.launchCost serve per prendere ogni elemento dentro launchCost oggetto
